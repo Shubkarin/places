@@ -9,9 +9,12 @@ environment:
   sdk: '>=2.18.0 <3.0.0'
 
 dependencies:
- flutter_svg: ^1.1.5
   flutter:
     sdk: flutter
+  surf_lint_rules: $currentVersion$
+  dart_code_metrics: ^4.19.0
+  flutter_svg: ^1.1.5
+ 
 
 
   cupertino_icons: ^1.0.2
